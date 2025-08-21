@@ -41,7 +41,14 @@ Linux system programming requires understanding OS-level concepts, process manag
 
 ---
 
+# Fork and Attribution
+
+This project is a fork of the **KursNotlari** repository originally created by [KAAN ASLAN][https://github.com/CSD-1993](https://github.com/CSD-1993/KursNotlari).  
+I have made some modifications and improvements to fit my own needs.  
+
+---
+
 ## How to Use
 - Clone the repository:
   ```bash
-  git clone https://github.com/monurparlak/Edu_Linux_Operating_System.git
+  git clone https://github.com/monurparlak/Edu_Linux_System_Programming.git
