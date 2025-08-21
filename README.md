@@ -43,7 +43,7 @@ Linux system programming requires understanding OS-level concepts, process manag
 
 # Fork and Attribution
 
-This project is a fork of the **KursNotlari** repository originally created by [KAAN ASLAN][https://github.com/CSD-1993](https://github.com/CSD-1993/KursNotlari).  
+This project is a fork of the **KursNotlari** repository originally created by [KAAN ASLAN][https://github.com/CSD-1993] (https://github.com/CSD-1993/KursNotlari).  
 I have made some modifications and improvements to fit my own needs.  
 
 ---
