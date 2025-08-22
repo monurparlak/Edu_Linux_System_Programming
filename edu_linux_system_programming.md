@@ -4,20 +4,113 @@
 
 ********************************************************************************
 ********************************************************************************
-********************************************************************************
-# XXX-DAYS -->> WRITE SOMETHING
-********************************************************************************
+# 001-DAYS -->> Sistem Programlamaya Giriş
 ********************************************************************************
 ********************************************************************************
+********************************************************************************
+Sistem Programlama Nedir?
+=========================
 
-## 2nd Sub-Title
-- 
-- 
+Sistem programlama, yazılım dünyasının **ağır sanayisi** olarak bilinir. Uygulama programlarının çalışabilmesi için gerekli olan temel araçları sağlar. Örneğin işletim sistemleri, derleyiciler, aygıt sürücüleri veya gömülü sistem yazılımları sistem programlamanın ürünleridir.
 
+Gündelik yazılımlardan farkı nedir?
+-----------------------------------
+Bir uygulama programı (örneğin bir oyun veya ofis programı), kullanıcıya doğrudan hizmet verir. Ancak sistem programları, donanım ile kullanıcı veya uygulama arasında köprü görevi görür. Daha düşük seviyede çalışır ve daha çok uzmanlık gerektirir.
 
-## 2nd Sub-Title
-- 
-- 
+Örnek sistem programları:
+- İşletim sistemleri (Windows, Linux, macOS)
+- Derleyiciler (gcc, clang)
+- Editörler (vim, nano)
+- Debugger yazılımları (gdb)
+- Aygıt sürücüleri
+- Sanallaştırma yazılımları
+- Veritabanı motorları
+
+Bu nedenle C/C++ gibi sistem seviyesinde güçlü diller tercih edilir. Java veya Python ile de bazı sistem yazılımları geliştirilebilir, ancak C/C++ bu işin merkezindedir.
+
+---
+
+İşletim Sistemi Nedir?
+======================
+
+Bir bilgisayarı düşündüğümüzde, donanım kaynaklarını kim yönetir? İşte işletim sistemi tam olarak bu görevi üstlenir. CPU, RAM, disk ve çevre birimlerini organize eder ve kullanıcıya bir arayüz sunar.
+
+Kısaca işletim sistemi:
+- Kaynak yöneticisidir.
+- Donanım ile kullanıcı arasında arayüzdür.
+
+Çekirdek (Kernel) ve Kabuk (Shell)
+----------------------------------
+- **Çekirdek:** Donanımı kontrol eden, kaynakları yöneten ana kısımdır. (Kullanıcı genelde çekirdeği doğrudan görmez.)
+- **Kabuk:** Kullanıcının etkileşim kurduğu kısımdır. (Linux’ta bash, Windows’ta masaüstü arayüzü gibi.)
+
+---
+
+İşletim Sistemlerinin Sınıflandırılması
+=======================================
+
+1. **Proses Yönetimine Göre**
+   - Tek prosesli: Aynı anda yalnızca bir program çalıştırır (ör. DOS).
+   - Çok prosesli: Birden fazla program aynı anda çalışabilir (Linux, Windows, macOS).
+
+2. **Kullanıcı Sayısına Göre**
+   - Tek kullanıcılı: Sadece bir kullanıcı için tasarlanmıştır (DOS).
+   - Çok kullanıcılı: Birden fazla kullanıcı çalışabilir (Linux, macOS, Windows Server).
+
+3. **Çekirdek Yapısına Göre**
+   - Monolithic Kernel: Çekirdeğin büyük kısmı tek blok olarak çalışır (Linux).
+   - Microkernel: Çekirdek minimumda tutulur, servisler kullanıcı modunda çalışır (Minix).
+
+4. **Gerçek Zamanlılık (Realtime)**
+   - Hard realtime: Zaman kısıtlamalarına çok sıkı uyar (uçuş kontrol sistemleri).
+   - Soft realtime: Daha esnektir (multimedya uygulamaları).
+
+5. **Dağıtıklık Durumuna Göre**
+   - Dağıtık sistemler: Birden çok makine tek bir sistem gibi davranır.
+   - Dağıtık olmayan: Standart tek makine sistemleri (Linux, Windows).
+
+6. **Donanım Türüne Göre**
+   - Masaüstü, mobil, gömülü.  
+     Örn: Android (mobil Linux), iOS, Windows CE.
+
+7. **Lisans Türüne Göre**
+   - Açık kaynak (Linux, BSD, Android).
+   - Kapalı kaynak (Windows, macOS).
+
+8. **Kaynak Kodun Özgünlüğüne Göre**
+   - Sıfırdan yazılmış: UNIX, Linux, Windows.
+   - Türetilmiş: Android (Linux çekirdeğinden), macOS (BSD’den).
+
+9. **GUI Desteğine Göre**
+   - Doğal GUI destekli: Windows, macOS.
+   - GUI’siz çekirdek: UNIX/Linux (X11 gibi katmanlarla GUI kazanır).
+
+10. **Ağ Rolleri**
+    - Client sürümleri (Windows 10, Ubuntu Desktop).
+    - Server sürümleri (Windows Server, CentOS, Debian Server).
+
+---
+
+Bilgisayar Donanımlarının Tarihsel Gelişimi
+===========================================
+
+Bilgisayarların temeli 1940’lı yıllarda atıldı. İlk dönemlerde mekanik makineler (Babbage’in “Analytical Engine”) kullanıldı. Daha sonra elektronik bilgisayarlar geliştirildi. 
+
+Üç dönem öne çıkar:
+1. **Vakum tüpleri dönemi (1940–1950’ler)**  
+   Büyük, enerji tüketen ve güvenilmez makineler.
+2. **Transistör dönemi (1950–1970)**  
+   Daha küçük, daha güvenilir ve daha az enerji tüketen makineler.
+3. **Entegre devre dönemi (1970–günümüz)**  
+   Mikroişlemciler, kişisel bilgisayarlar, mobil cihazlar.
+
+Önemli dönüm noktaları:
+- 1947: Transistörün icadı.
+- 1971: İlk mikroişlemciler (Intel 4004, 8080).
+- 1975: Bill Gates ve Paul Allen’ın Altair için BASIC yazması → Microsoft’un doğuşu.
+- 1976: Apple’ın kurulması.
+- 1980’ler: IBM PC ve MS-DOS’un yükselişi.
+- 1991: Linux’un doğuşu.
 
 ********************************************************************************
 ********************************************************************************
